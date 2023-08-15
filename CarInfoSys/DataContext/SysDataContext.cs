@@ -16,9 +16,9 @@ namespace CarInfoSys.DataContext
             }
 
         public DbSet<Car> Cars { get; set; }
-        public DbSet<Car> Customers { get; set; }
-        public DbSet<Car> Drivers { get; set; }
-        public DbSet<Car> CarRentals { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Driver> Drivers { get; set; }
+        public DbSet<CarRental> CarRentals { get; set; }
 
         public DbSet<Features> Features { get; set; }
     }
